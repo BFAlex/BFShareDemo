@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BJP-fO-8dv"/>
+                        <viewControllerLayoutGuide type="bottom" id="yNH-og-LZc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdR-F0-kdU">
+                                <rect key="frame" x="141.5" y="28" width="92" height="30"/>
+                                <color key="backgroundColor" red="0.17871002580947409" green="0.66666668653488159" blue="0.43062080031277328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="3XE-BN-clN"/>
+                                    <constraint firstAttribute="height" constant="30" id="r6k-KF-3Zt"/>
+                                </constraints>
+                                <state key="normal" title="系统分享视频">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionShareVideoBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cvk-nR-zIU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7V-bc-AfX">
+                                <rect key="frame" x="141" y="66" width="92" height="30"/>
+                                <color key="backgroundColor" red="0.17871002580000001" green="0.66666668650000005" blue="0.4306208003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2Cd-6z-9YM"/>
+                                    <constraint firstAttribute="width" constant="92" id="gx2-J8-IYx"/>
+                                </constraints>
+                                <state key="normal" title="系统分享图片">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionSharePhotoBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K25-Rh-FE4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="i7V-bc-AfX" firstAttribute="top" secondItem="QdR-F0-kdU" secondAttribute="bottom" constant="8" id="2iR-Qx-RU8"/>
+                            <constraint firstItem="QdR-F0-kdU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LwQ-ks-L76"/>
+                            <constraint firstItem="QdR-F0-kdU" firstAttribute="top" secondItem="BJP-fO-8dv" secondAttribute="bottom" constant="8" id="SN0-Db-uvE"/>
+                            <constraint firstItem="i7V-bc-AfX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="si4-s7-ilJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+</document>
