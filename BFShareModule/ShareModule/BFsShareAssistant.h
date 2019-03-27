@@ -11,6 +11,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^completeBlock)(id result, NSError *error);
+
 @interface BFsShareAssistant : NSObject
 
 #pragma mark - 系统分享
