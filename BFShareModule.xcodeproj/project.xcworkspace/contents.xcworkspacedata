@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BFShareDemo.xcodeproj">
+      location = "self:/Users/liuling/Desktop/BFAlex/Github/BFShareDemo/BFShareModule.xcodeproj">
    </FileRef>
 </Workspace>
