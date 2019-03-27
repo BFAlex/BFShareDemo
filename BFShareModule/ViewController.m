@@ -35,7 +35,7 @@
 - (void)shareTestVideo {
     
     NSString *pathVStr = [[NSBundle mainBundle] pathForResource:@"test_video.MOV" ofType:nil];
-    [BFSShareAssistant shareResourcesByOS:@[pathVStr]
+    [BFsShareAssistant shareResourcesByOS:@[pathVStr]
                                 shareText:nil
                            fromController:self
                            andResultBlock:^(BOOL completed, NSString * _Nonnull resultMsg) {
@@ -53,7 +53,7 @@
     NSString *pathStr = [[NSBundle mainBundle] pathForResource:@"test_photo.jpg" ofType:nil];
     NSString *testTxt = @"系统分享文字";
 
-    [BFSShareAssistant shareResourcesByOS:@[pathStr]
+    [BFsShareAssistant shareResourcesByOS:@[pathStr]
                                 shareText:testTxt
                            fromController:self
                            andResultBlock:^(BOOL completed, NSString * _Nonnull resultMsg) {

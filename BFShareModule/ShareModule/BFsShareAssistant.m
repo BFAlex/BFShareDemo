@@ -6,9 +6,9 @@
 //  Copyright © 2018年 BFAlex. All rights reserved.
 //
 
-#import "BFSShareAssistant.h"
+#import "BFsShareAssistant.h"
 
-@implementation BFSShareAssistant
+@implementation BFsShareAssistant
 
 + (void)shareResourcesByOS:(NSArray *)rPaths shareText:(nonnull NSString *)sText fromController:(nonnull UIViewController *)controller andResultBlock:(nonnull void (^)(BOOL, NSString *))resultBlock {
     

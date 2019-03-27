@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BFSShareAssistant : NSObject
+@interface BFsShareAssistant : NSObject
 
 #pragma mark - 系统分享
 

@@ -13,7 +13,7 @@
 		C444640121464E0C00C89EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C444640021464E0C00C89EB4 /* Assets.xcassets */; };
 		C444640421464E0C00C89EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C444640221464E0C00C89EB4 /* LaunchScreen.storyboard */; };
 		C444640721464E0C00C89EB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C444640621464E0C00C89EB4 /* main.m */; };
-		C4AEEF9321D31EC6002D0817 /* BFSShareAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AEEF9221D31EC6002D0817 /* BFSShareAssistant.m */; };
+		C4AEEF9321D31EC6002D0817 /* BFsShareAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AEEF9221D31EC6002D0817 /* BFsShareAssistant.m */; };
 		C4AEEF9721D34F68002D0817 /* test_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4AEEF9521D34F68002D0817 /* test_photo.jpg */; };
 		C4AEEF9821D34F68002D0817 /* test_video.MOV in Resources */ = {isa = PBXBuildFile; fileRef = C4AEEF9621D34F68002D0817 /* test_video.MOV */; };
 /* End PBXBuildFile section */
@@ -29,8 +29,8 @@
 		C444640321464E0C00C89EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C444640521464E0C00C89EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C444640621464E0C00C89EB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C4AEEF9121D31EC6002D0817 /* BFSShareAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFSShareAssistant.h; sourceTree = "<group>"; };
-		C4AEEF9221D31EC6002D0817 /* BFSShareAssistant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFSShareAssistant.m; sourceTree = "<group>"; };
+		C4AEEF9121D31EC6002D0817 /* BFsShareAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFsShareAssistant.h; sourceTree = "<group>"; };
+		C4AEEF9221D31EC6002D0817 /* BFsShareAssistant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFsShareAssistant.m; sourceTree = "<group>"; };
 		C4AEEF9521D34F68002D0817 /* test_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_photo.jpg; sourceTree = "<group>"; };
 		C4AEEF9621D34F68002D0817 /* test_video.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test_video.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				C4AEEF9421D34F20002D0817 /* Resources */,
-				C444640D21464E7C00C89EB4 /* SystemShare */,
+				C444640D21464E7C00C89EB4 /* ShareModule */,
 				C44463F721464E0300C89EB4 /* AppDelegate.h */,
 				C44463F821464E0300C89EB4 /* AppDelegate.m */,
 				C44463FA21464E0300C89EB4 /* ViewController.h */,
@@ -80,13 +80,13 @@
 			path = BFShareModule;
 			sourceTree = "<group>";
 		};
-		C444640D21464E7C00C89EB4 /* SystemShare */ = {
+		C444640D21464E7C00C89EB4 /* ShareModule */ = {
 			isa = PBXGroup;
 			children = (
-				C4AEEF9121D31EC6002D0817 /* BFSShareAssistant.h */,
-				C4AEEF9221D31EC6002D0817 /* BFSShareAssistant.m */,
+				C4AEEF9121D31EC6002D0817 /* BFsShareAssistant.h */,
+				C4AEEF9221D31EC6002D0817 /* BFsShareAssistant.m */,
 			);
-			path = SystemShare;
+			path = ShareModule;
 			sourceTree = "<group>";
 		};
 		C4AEEF9421D34F20002D0817 /* Resources */ = {
@@ -172,7 +172,7 @@
 			files = (
 				C44463FC21464E0300C89EB4 /* ViewController.m in Sources */,
 				C444640721464E0C00C89EB4 /* main.m in Sources */,
-				C4AEEF9321D31EC6002D0817 /* BFSShareAssistant.m in Sources */,
+				C4AEEF9321D31EC6002D0817 /* BFsShareAssistant.m in Sources */,
 				C44463F921464E0300C89EB4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
